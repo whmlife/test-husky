@@ -1,5 +1,6 @@
-# Implicit Code Splitting with React Router and Webpack
+# husky v7 相关内容
 
-This repo demonstrates how to set up implicit code splitting and chunk loading using Webpack and React Router. It is a companion to [this blog post](http://henleyedition.com/implicit-code-splitting-with-react-router-and-webpack/).
+#### 利用 git hooks 实现相关内容
 
-The `before` branch is a copy of React Router's [huge apps example](https://github.com/reactjs/react-router/tree/master/examples/huge-apps) and the `after` branch contains the final refactor. Webpack's [bundle loader](https://github.com/webpack/bundle-loader) is used to remove all of the structural boilerplate in the original code, allowing us to keep all of our routing logic in one file and simplify the directory structure. This technique can be used with any naming convention or directory structure by simply updating the regular expression in `webpack.config.js`.
+1. 代码提交时格式检验
+2. 禁止提交代码进入 master
