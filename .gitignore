@@ -1,0 +1,17 @@
+
+
+#npm
+node_modules
+
+
+__build__/
+node_modules/
+npm-debug.log
+webpack-assets.json
+webpack-stats.json
+
+#misc
+.vscode
+.history
+.DS_Store
+package-lock.json
