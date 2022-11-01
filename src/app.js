@@ -55,7 +55,10 @@ render(
       <Route path="course/:courseId" getComponent={lazyLoadComponent(Course)}>
         <Route
           path="announcements"
-          getComponents={lazyLoadComponents({ sidebar: AnnouncementsSidebar, main: Announcements })}
+          getComponents={lazyLoadComponents({
+            sidebar: AnnouncementsSidebar,
+            main: Announcements
+          })}
         >
           <Route path=":announcementId" getComponent={lazyLoadComponent(Announcement)} />
         </Route>
